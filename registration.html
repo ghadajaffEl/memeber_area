@@ -1,0 +1,98 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="member.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	
+
+	<title>Register</title>
+</head>
+	<body>
+		<nav class="navbar navbar-default"  >
+			<a class="navbar-brand" href="#">ESPACE	MEMBRE</a>
+			<ul class="nav navbar-nav mr-auto">
+				<li nav-item><a href="home.html"> ACCUEIL</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="registration.html">S'INSCRIRE </a></li>
+				<li><a href="login.html">SE CONNECTER </a></li>
+			</ul>
+			</ul>
+			</nav>
+
+	<main >
+		<section id="flower">
+		<form name="frm1" onsubmit="return send()">
+			<h3>Inscrivez vous</h3>
+			<div class="form-group">
+				<div class="input-group">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+    				<input id="name" type="text" class="form-control" name="name" placeholder="Nom Complet" onblur="return validate_name()">
+    				    				
+				</div>
+				<p class="error" id="err-name"></p>	
+				<div class="input-group">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    				<input id="pseudo" type="text" class="form-control" name="pseudo" placeholder="Pseudo" onblur="validate_pseudo()">
+				</div>
+			    <p class="error" id="err-pseudo"></p>	
+
+				<div class="input-group">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+    				<input id="email" type="text" class="form-control" name="email" placeholder="Email" onblur="validate_email()">
+				</div>	
+				<p class="error" id="err-email"></p>	
+
+				<div class="input-group">
+					  <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+					  <input id="pwd" type="password" class="form-control" placeholder="Mot de passe" onblur="validate_pwd()">
+				</div>
+				<p class="error" id="err-pwd"></p>	
+
+				<div class="input-group">
+					  <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+					  <input id="confirm-pwd" type="password" class="form-control" placeholder="Confirmer votre mot de passe" onblur="confirm_pwd()">
+				</div>
+     
+     
+    
+				<p  class="error" id="err-confirm"></p>
+				<div class="checkbox">
+ 					  <label><input type="checkbox" value=""><b>J'accepte<a class="blue" href=""> les Termes et Conditions</a></b></label>
+ 					  <button type="submit" class="btn btn-default" >S'inscrire</button>
+ 					  <p><b>Vous avez déjà un compte?<a class="blue" href="login.html">Connectez vous</a><b></p>
+
+				</div>
+			</div>
+		</form>
+	</section>
+	</main>
+	<footer class="footer">
+		
+				
+				<div class="col-xs-12 col-sm-12 col-md-12">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><i class="fa fa-facebook white"></i></a></li>
+						<li class="list-inline-item"><i class="fa fa-twitter white"></i></a></li>
+						<li class="list-inline-item"><i class="fa fa-instagram white"></i></a></li>
+						<li class="list-inline-item"><i class="fa fa-google-plus white"></i></a></li>
+						<li class="list-inline-item"><i class="fa fa-envelope white"></i></a></li>
+					</ul>
+				</div>
+				
+			
+			<!--<div class="row">-->
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					
+					<p class="h6">&copy All right Reversed.<a class="text-green ml-2" target="_blank">Site créé par Ghada Jaffel</a></p>
+				</div>
+			
+
+	</footer>
+</body>
+</html>

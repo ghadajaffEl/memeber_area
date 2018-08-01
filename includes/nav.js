@@ -1,0 +1,11 @@
+<nav class="navbar navbar-default"  >
+		<a class="navbar-brand" href="#">ESPACE	MEMBRE</a>
+		<ul class="nav navbar-nav mr-auto">
+			<li nav-item><a href="#"> ACCUEIL</a></li>
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="registration.html">S'INSCRIRE </a></li>
+			<li><a href="login.html">SE CONNECTER </a></li>
+		</ul>
+		</ul>
+	</nav>

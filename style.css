@@ -1,0 +1,143 @@
+ul{
+	list-style-type: none;
+}
+
+nav{
+	padding:0 5vw 0 5vw;
+}
+
+img{
+	
+	
+}
+.welcome{
+	height: 39vw;
+	background-image: url("bg1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -50;
+	
+
+	
+
+}
+.welcome-container{
+position: relative;
+    top: 9vw;
+    left: 1vw;
+border: 0.15vw solid #f2dede;
+border-radius: 2vw;
+width: 45vw;
+color: #d8e9df;
+font-weight: bold;
+font-size: 1.5vw;
+
+}
+.name{
+	margin-left: 12vw;
+	color: #c3135c;
+	z-index: 1;
+}
+
+h3{
+	margin-left:15vw;
+	color: white;
+}
+
+.news{
+	background-color:#ffe7fb;
+    margin-left: 20vw;
+    height: 15vw;
+    padding: 0 10vw;
+
+}
+.email{
+	margin-left: 10vw;
+}
+
+.glyphicon-send{
+	color: white;
+	border-radius: 1.2vw;
+	background-color: green;
+	width: 1.7vw;
+	height: 1.5vw;
+	margin: 1vw;
+}
+footer{
+	background-color: black;
+	height: 5vw;
+}
+.white{
+	color: white;
+}
+#flower{
+		background-image: url("form.jpeg");
+ 
+	height: 50vw;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -50;
+
+}
+.form{
+	padding: 1vw;
+	margin-top: 1vw;
+}
+
+.input-group-addon{
+	background-color: white;
+	color: #19C107;
+	
+}
+
+.input-group{
+	padding:1.5vw;
+	width: 40vw;
+}
+form{
+	margin-left: 50vw;
+	margin-top: 0vw;
+
+}
+.btn-default{
+	margin-top: 3vw;
+	width: 40vw;
+    margin-right: 10vw;
+    background-color: #8dc022;
+}
+.blue{
+	color: white;
+}
+
+#err-name{
+	color: red;
+	position: relative;
+}
+.oublié{
+	margin-left: 20vw;
+}
+.btn-facebook {
+	  background: white;
+	  border-radius: 0;
+	  color: #239ee6;
+	  border-style: solid;
+	  border-color: #239ee6; 
+	  margin-left: 10vw;
+	}
+	.btn-twitter{
+	  background: white;
+	  border-radius: 0;
+	  color: #14d5f4;
+	  border-style: solid;
+	  border-color: #14d5f4; 
+
+	}
+.btn-cnct{
+	width: 35vw;
+	margin-left: 2vw;
+}
+.btn{
+	margin-top: 1vw;
+}
+.error
+{color:red;}

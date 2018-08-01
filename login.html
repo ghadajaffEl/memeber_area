@@ -1,0 +1,79 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="member.js"></script>
+
+</head>
+<body>
+	<nav class="navbar navbar-default"  >
+	<a class="navbar-brand" href="#">ESPACE	MEMBRE</a>
+	<ul class="nav navbar-nav mr-auto">
+		<li nav-item><a href="home.html"> ACCUEIL</a></li>
+	</ul>
+	<ul class="nav navbar-nav navbar-right">
+		<li><a href="registration.html">S'INSCRIRE </a></li>
+		<li><a href="#">SE CONNECTER </a></li>
+	</ul>
+	</ul>
+	</nav>
+<section id="flower">
+	<form name="frm1" class="form" onsubmit="return connecter()">
+			<h3>Inscrivez vous</h3>
+			<div class="form-group">
+				<p class="error"id="err-name"></p>	
+				<div class="input-group">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+					<input id="pseudo" type="text" class="form-control" name="pseudo" placeholder="Pseudo" onblur="validate_pseudo()">
+				</div>
+			    <p class="error"id="err-pseudo"></p>	
+
+				<div class="input-group">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+					<input id="pwd" type="password" class="form-control" placeholder="Mot de passe" onblur="validate_pwd()">
+				</div>
+				<p class="error" id="err-pwd"></p>	
+				<div class="checkbox">
+			    <label><input type="checkbox" value="" class="blue"><b class="blue">Rester connecté<a class="blue oublié" href=""> mot de passe oublié?</a></b></label>
+			    <button type="submit" class="btn btn-default btn-cnct">Se connecter</button>
+
+				</div>
+			</div>
+			<div class="btn">
+				<a href="#" title="Facebook" class="btn btn-facebook btn-lg"><i class="fa fa-facebook"></i> Facebook</a>	
+				<a href="#" title="Twitter" class="btn btn-twitter btn-lg"><i class="fa fa-twitter"></i> Twitter</a>	
+				<p class="blue"><b>Vous n'avez pas du compte?<a class="blue" href="registration.html">Inscrivez vous</a></b></p>
+			</div>
+		</form>
+</section>
+	</main>
+	<footer class="footer">
+		
+				
+				<div class="col-xs-12 col-sm-12 col-md-12">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><i class="fa fa-facebook white"></i></a></li>
+						<li class="list-inline-item"><i class="fa fa-twitter white"></i></a></li>
+						<li class="list-inline-item"><i class="fa fa-instagram white"></i></a></li>
+						<li class="list-inline-item"><i class="fa fa-google-plus white"></i></a></li>
+						<li class="list-inline-item"><i class="fa fa-envelope white"></i></a></li>
+					</ul>
+				</div>
+				
+			
+			<!--<div class="row">-->
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					
+					<p class="h6">&copy All right Reversed.<a class="text-green ml-2" target="_blank">Site créé par Ghada Jaffel</a></p>
+				</div>
+			
+
+	</footer>
+</body>
+</html>
